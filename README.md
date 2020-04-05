@@ -21,7 +21,7 @@ and we figured it might benefit other developers too.
     - [Ntb::Templates](#ntbtemplates)
     - [Ntb::Colors](#ntbcolors)
 - [Build](#build)
-- [Usage (Ntb::Colors)](#usage-ntbcolors-)
+- [Usage (Ntb::Colors)](#usage-ntbcolors)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
