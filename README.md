@@ -170,7 +170,7 @@ Min Std: **C++17** <br />
 
 Tested against OS:
 
-- Linux 4.14.154 Ubuntu 8.04.4 LTS x86_64 (Bionic Beaver)
+- Linux 4.14.154 Ubuntu 18.04.4 LTS x86_64 (Bionic Beaver)
 - Windows 7 Home Premium SP1 64 bit
 - Windows 10 Home
 
