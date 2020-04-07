@@ -18,7 +18,7 @@ and we figured it might benefit other developers too.
     - [Ntb::Types](#ntbtypes)
     - [Ntb::Templates](#ntbtemplates)
     - [Ntb::Colors](#ntbcolors)
-- [Build-include](#build)
+- [Build-Include](#buildinclude)
 - [Usage (Ntb::Colors)](#usage-ntbcolors)
 - [Documentation](https://notixbit.github.io/ntbpp/namespaces.html)
 - [Roadmap](#roadmap)
