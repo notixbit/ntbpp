@@ -2,4 +2,6 @@ DOXYFILE_ENCODING      = UTF-8
 PROJECT_NAME           = "NTB++"
 PROJECT_BRIEF          = "NTB++ is a header-only utility library for C++ >= 17"
 PROJECT_LOGO           =
+RECURSIVE              = YES
 OUTPUT_DIRECTORY       = ./docs
+USE_MDFILE_AS_MAINPAGE = README.md
