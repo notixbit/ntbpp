@@ -1,0 +1,12 @@
+name: Generate Docs
+
+on:
+  push:
+    branches: [ master ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Generate docs
+      uses: mattnotmitt/doxygen-action@v1
