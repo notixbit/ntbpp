@@ -20,7 +20,7 @@ and we figured it might benefit other developers too.
     - [Ntb::Colors](#ntbcolors)
 - [Build](#build)
 - [Usage (Ntb::Colors)](#usage-ntbcolors)
-- [Documentation](https://notixbit.github.io/ntbpp/files.html)
+- [Documentation](https://notixbit.github.io/ntbpp/namespaces.html)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
