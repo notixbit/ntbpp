@@ -18,7 +18,7 @@ and we figured it might benefit other developers too.
     - [Ntb::Types](#ntbtypes)
     - [Ntb::Templates](#ntbtemplates)
     - [Ntb::Colors](#ntbcolors)
-- [Build](#build)
+- [Build-include](#build)
 - [Usage (Ntb::Colors)](#usage-ntbcolors)
 - [Documentation](https://notixbit.github.io/ntbpp/namespaces.html)
 - [Roadmap](#roadmap)
@@ -157,10 +157,10 @@ const String col(const String str, const Colors color, const Colors back = Color
 
 ---
 
-## Build
+## Build/Include
 
 Just clone this repo into your thirdparty (or lib or includes) folder,<br>
-and instruct your compiler to include it.
+and instruct your compiler to include it. You could also add it as a submodule.
 
 Specs:
 
@@ -180,6 +180,12 @@ Tested against Compiler:
 
 ```
 git clone <url> thirdparty
+```
+
+or
+
+```
+git submodule add <url> thirdparty
 ```
 
 Include via ``INCLUDES`` flags (in Makefile etc):
