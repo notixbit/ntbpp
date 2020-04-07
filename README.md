@@ -11,8 +11,6 @@ Motivation:
 We developed this lib as part of a program for a customer,<br>
 and we figured it might benefit other developers too.
 
----
-
 ## Table of contents
 
 - [Namespaces](#namespaces)
@@ -22,6 +20,7 @@ and we figured it might benefit other developers too.
     - [Ntb::Colors](#ntbcolors)
 - [Build](#build)
 - [Usage (Ntb::Colors)](#usage-ntbcolors)
+- [Documentation](https://notixbit.github.io/ntbpp/files.html)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
