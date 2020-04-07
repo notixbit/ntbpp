@@ -1,0 +1,223 @@
+N\+T\+B++ is a header-\/only utility library for C++ $>$= 17.
+
+It includes Colors, Templates \& Types. Useful for printing colors, {\ttfamily std\+::map} and {\ttfamily std\+::vector} into {\ttfamily std\+::cout}.~\newline
+ A couple of common typealiases (typedefs) like {\ttfamily String}, {\ttfamily U\+Int}, {\ttfamily String\+Map}, {\ttfamily Map\+Of$<$Type$>$} are included as well.~\newline
+
+
+Motivation\+:
+
+We developed this lib as part of a program for a customer,~\newline
+ and we figured it might benefit other developers too.
+
+\DoxyHorRuler{0}
+\hypertarget{md_README_autotoc_md9}{}\doxysection{Table of contents}\label{md_README_autotoc_md9}
+
+\begin{DoxyItemize}
+\item \href{\#namespaces}{\texttt{ Namespaces}}
+\begin{DoxyItemize}
+\item \href{\#ntb}{\texttt{ Ntb}}
+\item \href{\#ntbtypes}{\texttt{ Ntb\+::\+Types}}
+\item \href{\#ntbtemplates}{\texttt{ Ntb\+::\+Templates}}
+\item \href{\#ntbcolors}{\texttt{ Ntb\+::\+Colors}}
+\end{DoxyItemize}
+\item \href{\#build}{\texttt{ Build}}
+\item \href{\#usage-ntbcolors}{\texttt{ Usage (Ntb\+::\+Colors)}}
+\item \href{\#roadmap}{\texttt{ Roadmap}}
+\item \href{\#contributing}{\texttt{ Contributing}}
+\item \href{\#license}{\texttt{ License}}
+\end{DoxyItemize}
+
+\DoxyHorRuler{0}
+\hypertarget{md_README_autotoc_md11}{}\doxysection{Namespaces}\label{md_README_autotoc_md11}
+\hypertarget{md_README_autotoc_md12}{}\doxysubsection{$<$tt$>$\+Ntb$<$/tt$>$}\label{md_README_autotoc_md12}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{using namespace }Ntb;}
+\end{DoxyCode}
+
+
+Exposes the following namespaces\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{namespace }Ntb::Types}
+\DoxyCodeLine{namespace Ntb::Templates}
+\DoxyCodeLine{namespace Ntb::Colors}
+\end{DoxyCode}
+
+
+\DoxyHorRuler{0}
+\hypertarget{md_README_autotoc_md14}{}\doxysubsection{$<$tt$>$\+Ntb\+::\+Types$<$/tt$>$}\label{md_README_autotoc_md14}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{using namespace }Ntb::Types;}
+\end{DoxyCode}
+
+
+Exposes the following types\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{using} Bool}
+\DoxyCodeLine{\textcolor{keyword}{using} Char}
+\DoxyCodeLine{\textcolor{keyword}{using} UChar}
+\DoxyCodeLine{\textcolor{keyword}{using} Short}
+\DoxyCodeLine{\textcolor{keyword}{using} UShort}
+\DoxyCodeLine{\textcolor{keyword}{using} Int}
+\DoxyCodeLine{\textcolor{keyword}{using} UInt}
+\DoxyCodeLine{\textcolor{keyword}{using} Long}
+\DoxyCodeLine{\textcolor{keyword}{using} LongLong}
+\DoxyCodeLine{\textcolor{keyword}{using} ULong}
+\DoxyCodeLine{\textcolor{keyword}{using} ULongLong}
+\DoxyCodeLine{\textcolor{keyword}{using} String}
+\DoxyCodeLine{\textcolor{keyword}{using} MapOf<Type,Type2>}
+\DoxyCodeLine{\textcolor{keyword}{using} StringMapOf<Type>}
+\DoxyCodeLine{\textcolor{keyword}{using} StringMap}
+\DoxyCodeLine{\textcolor{keyword}{using} Vector<Type>}
+\end{DoxyCode}
+
+
+\DoxyHorRuler{0}
+\hypertarget{md_README_autotoc_md16}{}\doxysubsection{$<$tt$>$\+Ntb\+::\+Templates$<$/tt$>$}\label{md_README_autotoc_md16}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{using namespace }Ntb::Templates;}
+\end{DoxyCode}
+
+
+Exposes the following templates\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{}
+\DoxyCodeLine{std::ostream \&operator<<(std::ostream \&os, \textcolor{keyword}{const} Vector<T> \&v)}
+\DoxyCodeLine{std::ostream \&operator<<(std::ostream \&os, \textcolor{keyword}{const} MapOf<T,U> \&v)}
+\end{DoxyCode}
+
+
+\begin{quote}
+{\ttfamily Ntb\+::\+Templates} makes use of {\ttfamily Ntb\+::\+Types} and exposes it. \end{quote}
+
+
+\DoxyHorRuler{0}
+\hypertarget{md_README_autotoc_md18}{}\doxysubsection{$<$tt$>$\+Ntb\+::\+Colors$<$/tt$>$}\label{md_README_autotoc_md18}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{using namespace }Ntb::Colors;}
+\end{DoxyCode}
+
+
+Exposes the following utilities for coloring {\ttfamily std\+::cout} output\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{keyword}{enum} Colors : \textcolor{keyword}{const} UInt}
+\DoxyCodeLine{\textcolor{keyword}{const} UInt Colors::RESET}
+\DoxyCodeLine{\textcolor{keyword}{const} UInt Colors::BLACK}
+\DoxyCodeLine{\textcolor{keyword}{const} UInt Colors::RED}
+\DoxyCodeLine{\textcolor{keyword}{const} UInt Colors::GREEN}
+\DoxyCodeLine{\textcolor{keyword}{const} UInt Colors::YELLOW}
+\DoxyCodeLine{\textcolor{keyword}{const} UInt Colors::BLUE}
+\DoxyCodeLine{\textcolor{keyword}{const} UInt Colors::MAGENTA}
+\DoxyCodeLine{\textcolor{keyword}{const} UInt Colors::CYAN}
+\DoxyCodeLine{\textcolor{keyword}{const} UInt Colors::WHITE}
+\DoxyCodeLine{\textcolor{keyword}{const} UInt Colors::BACKBLACK}
+\DoxyCodeLine{\textcolor{keyword}{const} UInt Colors::BACKRED}
+\DoxyCodeLine{\textcolor{keyword}{const} UInt Colors::BACKGREEN}
+\DoxyCodeLine{\textcolor{keyword}{const} UInt Colors::BACKYELLOW}
+\DoxyCodeLine{\textcolor{keyword}{const} UInt Colors::BACKBLUE}
+\DoxyCodeLine{\textcolor{keyword}{const} UInt Colors::BACKMAGENTA}
+\DoxyCodeLine{\textcolor{keyword}{const} UInt Colors::BACKCYAN}
+\DoxyCodeLine{\textcolor{keyword}{const} UInt Colors::BACKWHITE}
+\DoxyCodeLine{\textcolor{keyword}{const} String col(\textcolor{keyword}{const} Colors color = Colors::RESET)}
+\DoxyCodeLine{\textcolor{keyword}{const} String col(\textcolor{keyword}{const} String str, \textcolor{keyword}{const} Colors color, \textcolor{keyword}{const} Colors back = Colors::RESET)}
+\end{DoxyCode}
+
+
+\begin{quote}
+{\ttfamily Ntb\+::\+Colors} makes use of {\ttfamily Ntb\+::\+Types} and exposes it. \end{quote}
+
+
+\DoxyHorRuler{0}
+\hypertarget{md_README_autotoc_md20}{}\doxysection{Build}\label{md_README_autotoc_md20}
+Just clone this repo into your thirdparty (or lib or includes) folder,~\newline
+ and instruct your compiler to include it.
+
+Specs\+:
+
+Min Std\+: {\bfseries{C++17}} ~\newline
+ (Structured bindings, inline, Nested namespaces)
+
+Tested against OS\+:
+
+
+\begin{DoxyItemize}
+\item Linux 4.\+14.\+154 Ubuntu 18.\+04.\+4 L\+TS x86\+\_\+64 (Bionic Beaver)
+\item Windows 7 Home Premium S\+P1 64 bit
+\item Windows 10 Home
+\end{DoxyItemize}
+
+Tested against Compiler\+:
+
+
+\begin{DoxyItemize}
+\item clang 9.\+0.\+0
+\end{DoxyItemize}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{git clone <url> thirdparty}
+\end{DoxyCode}
+
+
+Include via {\ttfamily I\+N\+C\+L\+U\+D\+ES} flags (in Makefile etc)\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{INCLUDES = -\/Ithirdparty/notixbit}
+\end{DoxyCode}
+
+
+Or via commandline\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{clang++ -\/O1 -\/std=c++17 -\/pedantic -\/Ithirdparty/notixbit}
+\end{DoxyCode}
+
+
+\DoxyHorRuler{0}
+\hypertarget{md_README_autotoc_md22}{}\doxysection{Usage ($<$tt$>$\+Ntb\+::\+Colors$<$/tt$>$)}\label{md_README_autotoc_md22}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include <notixbit.h>}}
+\DoxyCodeLine{\textcolor{keyword}{using namespace }Ntb::Colors;}
+\DoxyCodeLine{}
+\DoxyCodeLine{std::cout }
+\DoxyCodeLine{  << col(\textcolor{stringliteral}{"Notixbit Creative"}, Colors::WHITE, Colors::BACKRED) }
+\DoxyCodeLine{  << std::endl << std::endl }
+\DoxyCodeLine{  << col(\textcolor{stringliteral}{"====POLICE==LINE==DO==NOT==CROSS===="}, Colors::BLACK, Colors::BACKYELLOW) }
+\DoxyCodeLine{  << std::endl << std::endl;}
+\end{DoxyCode}
+
+
+Result\+:
+
+
+
+\DoxyHorRuler{0}
+\hypertarget{md_README_autotoc_md24}{}\doxysection{Roadmap}\label{md_README_autotoc_md24}
+
+\begin{DoxyItemize}
+\item Tests
+\item CI
+\end{DoxyItemize}
+
+\DoxyHorRuler{0}
+\hypertarget{md_README_autotoc_md26}{}\doxysection{Contributing}\label{md_README_autotoc_md26}
+You\textquotesingle{}re very welcome and free to contribute. Thank you.
+
+\DoxyHorRuler{0}
+\hypertarget{md_README_autotoc_md28}{}\doxysection{License}\label{md_README_autotoc_md28}
+\mbox{[}M\+IT\mbox{]}(L\+I\+C\+E\+N\+SE) 
