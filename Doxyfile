@@ -1,0 +1,4 @@
+DOXYFILE_ENCODING      = UTF-8
+PROJECT_NAME           = "NTB++"
+PROJECT_BRIEF          = "NTB++ is a header-only utility library for C++ >= 17"
+PROJECT_LOGO           =
