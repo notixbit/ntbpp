@@ -4,7 +4,7 @@ NTB++ is a header-only utility library for C++ >= 17.
 
 It includes Colors, Templates & Types.
 Useful for printing colors, ``std::map`` and ``std::vector`` into ``std::cout``.<br>
-A couple of common typealiases (typedefs) like ``String``, ``UInt``, ``StringMap``, ``MapOf<Type>`` are included as well.<br>
+A couple of common typealiases (typedefs) like ``String``, ``UInt``, ``StringMap``, ``StringMapOf<Type>`` are included as well.<br>
 
 Motivation:
 
