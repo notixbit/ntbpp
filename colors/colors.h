@@ -70,7 +70,8 @@ namespace Colors
     const Colors color,
     const Colors back = Colors::RESET)
   {
-    return col(back+10) + col(color) + str + col();
+    if (back !== Colors::RESET) back+=10;
+    return col(back) + col(color) + str + col();
   }
 } // namespace Colors
 } // namespace Ntb
