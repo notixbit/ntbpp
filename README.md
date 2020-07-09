@@ -116,7 +116,6 @@ Exposes the following utilities for coloring ``std::cout`` output:
 ```cpp
 /** Helpers */
 enum Colors : const UInt
-/** Foreground */
 const UInt Colors::RESET
 const UInt Colors::BLACK
 const UInt Colors::RED
@@ -126,15 +125,6 @@ const UInt Colors::BLUE
 const UInt Colors::MAGENTA
 const UInt Colors::CYAN
 const UInt Colors::WHITE
-/** Background */
-const UInt Colors::BACKBLACK
-const UInt Colors::BACKRED
-const UInt Colors::BACKGREEN
-const UInt Colors::BACKYELLOW
-const UInt Colors::BACKBLUE
-const UInt Colors::BACKMAGENTA
-const UInt Colors::BACKCYAN
-const UInt Colors::BACKWHITE
 /**
  * Color marker for foreground/background.
  *
@@ -209,9 +199,9 @@ clang++ -O1 -std=c++17 -pedantic -Ithirdparty/notixbit
 using namespace Ntb::Colors;
 
 std::cout 
-  << col("Notixbit Creative", Colors::WHITE, Colors::BACKRED) 
+  << col("Notixbit Creative", Colors::WHITE, Colors::RED) 
   << std::endl << std::endl 
-  << col("====POLICE==LINE==DO==NOT==CROSS====", Colors::BLACK, Colors::BACKYELLOW) 
+  << col("====POLICE==LINE==DO==NOT==CROSS====", Colors::BLACK, Colors::YELLOW) 
   << std::endl << std::endl;
 ```
 
