@@ -42,15 +42,7 @@ namespace Colors
     BLUE,
     MAGENTA,
     CYAN,
-    WHITE,
-    BACKBLACK = 40,
-    BACKRED,
-    BACKGREEN,
-    BACKYELLOW,
-    BACKBLUE,
-    BACKMAGENTA,
-    BACKCYAN,
-    BACKWHITE
+    WHITE
   };
 
   /**
@@ -78,7 +70,7 @@ namespace Colors
     const Colors color,
     const Colors back = Colors::RESET)
   {
-    return col(back) + col(color) + str + col();
+    return col(back+10) + col(color) + str + col();
   }
 } // namespace Colors
 } // namespace Ntb
