@@ -140,7 +140,7 @@ const String col(const UInt color = Colors::RESET)
  * @param back The background color code.
  * @return Encapsulated string with color markers.
  */
-const String col(const String str, const UInt front, const UInt back = Colors::RESET)
+const String col(const String str, const UInt front, UInt back = Colors::RESET)
 ```
 
 > ``Ntb::Colors`` makes use of ``Ntb::Types`` and exposes it.
