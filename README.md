@@ -114,9 +114,8 @@ using namespace Ntb::Colors;
 Exposes the following utilities for coloring ``std::cout`` output:
 
 ```cpp
-/** Helpers */
 enum Colors : const UInt
-/** Foreground */
+/** Color helpers (optional) */
 const UInt Colors::RESET
 const UInt Colors::BLACK
 const UInt Colors::RED
@@ -126,31 +125,22 @@ const UInt Colors::BLUE
 const UInt Colors::MAGENTA
 const UInt Colors::CYAN
 const UInt Colors::WHITE
-/** Background */
-const UInt Colors::BACKBLACK
-const UInt Colors::BACKRED
-const UInt Colors::BACKGREEN
-const UInt Colors::BACKYELLOW
-const UInt Colors::BACKBLUE
-const UInt Colors::BACKMAGENTA
-const UInt Colors::BACKCYAN
-const UInt Colors::BACKWHITE
 /**
  * Color marker for foreground/background.
  *
- * @param color The Colors enum member.
+ * @param color The color code.
  * @return String with color marker.
  */
-const String col(const Colors color = Colors::RESET)
+const String col(const UInt color = Colors::RESET)
 /**
  * Color marker for foreground, background and text.
  *
  * @param str The input text.
- * @param color The foreground Colors enum member.
- * @param back The background Colors enum member.
- * @return String with color marker.
+ * @param front The foreground color code.
+ * @param back The background color code.
+ * @return Encapsulated string with color markers.
  */
-const String col(const String str, const Colors color, const Colors back = Colors::RESET)
+const String col(const String str, const UInt front, const UInt back = Colors::RESET)
 ```
 
 > ``Ntb::Colors`` makes use of ``Ntb::Types`` and exposes it.
@@ -209,9 +199,9 @@ clang++ -O1 -std=c++17 -pedantic -Ithirdparty/notixbit
 using namespace Ntb::Colors;
 
 std::cout 
-  << col("Notixbit Creative", Colors::WHITE, Colors::BACKRED) 
+  << col("Notixbit Creative", Colors::WHITE, Colors::RED) 
   << std::endl << std::endl 
-  << col("====POLICE==LINE==DO==NOT==CROSS====", Colors::BLACK, Colors::BACKYELLOW) 
+  << col("====POLICE==LINE==DO==NOT==CROSS====", Colors::BLACK, Colors::YELLOW) 
   << std::endl << std::endl;
 ```
 

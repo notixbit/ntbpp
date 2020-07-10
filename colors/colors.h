@@ -42,24 +42,16 @@ namespace Colors
     BLUE,
     MAGENTA,
     CYAN,
-    WHITE,
-    BACKBLACK = 40,
-    BACKRED,
-    BACKGREEN,
-    BACKYELLOW,
-    BACKBLUE,
-    BACKMAGENTA,
-    BACKCYAN,
-    BACKWHITE
+    WHITE
   };
 
   /**
    * Color marker for foreground/background.
    *
-   * @param color The Colors enum member.
+   * @param color The color code.
    * @return String with color marker.
    */
-  inline const String col(const Colors color = Colors::RESET)
+  inline const String col(const UInt color = Colors::RESET)
   {
     const String begin = "\033[";
     const String end = "m";
@@ -69,16 +61,17 @@ namespace Colors
    * Color marker for foreground, background and text.
    *
    * @param str The input text.
-   * @param color The foreground Colors enum member.
-   * @param back The background Colors enum member.
-   * @return String with color marker.
+   * @param front The foreground color code.
+   * @param back The background color code.
+   * @return Encapsulated string with color markers.
    */
   inline auto col(
     const String str,
-    const Colors color,
-    const Colors back = Colors::RESET)
+    const UInt front,
+    UInt back = Colors::RESET)
   {
-    return col(back) + col(color) + str + col();
+    back = (back != Colors::RESET) ? back + 10U : back;
+    return col(back) + col(front) + str + col();
   }
 } // namespace Colors
 } // namespace Ntb
