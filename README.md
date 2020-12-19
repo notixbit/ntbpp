@@ -140,7 +140,7 @@ const String col(const UInt color = Colors::RESET)
  * @param back The background color code.
  * @return Encapsulated string with color markers.
  */
-const String col(const String str, const UInt front, UInt back = Colors::RESET)
+const String col(const String str, const UInt front, const UInt back = Colors::RESET)
 ```
 
 > ``Ntb::Colors`` makes use of ``Ntb::Types`` and exposes it.
@@ -169,25 +169,39 @@ Tested against Compiler:
 
 
 ```
-git clone <url> thirdparty
+git clone <url>
 ```
 
 or
 
 ```
-git submodule add <url> thirdparty
+git submodule add <url>
 ```
+
+**CMake:**
+
+You can use ``cmake`` to build and install the include files.
+```
+cd ntbpp
+mkdir build && cd build
+cmake ..
+make install
+```
+
+Include files will be placed into: ``include/notixbit/ntbpp``
+
+**Manually:**
 
 Include via ``INCLUDES`` flags (in Makefile etc):
 
 ```
-INCLUDES = -Ithirdparty/notixbit
+INCLUDES = -Intbpp
 ```
 
 Or via commandline:
 
 ```
-clang++ -O1 -std=c++17 -pedantic -Ithirdparty/notixbit
+clang++ -O1 -std=c++17 -pedantic -Intbpp
 ```
 
 ---
