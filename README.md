@@ -201,6 +201,8 @@ Create/Edit the following files in your project:
 
 ```
 
+Run: ``vcpkg install --feature-flags=registries,manifests``
+
 ### Git Clone
 
 ```
