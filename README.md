@@ -161,12 +161,12 @@ Tested against OS:
 
 - Linux 4.14.154 Ubuntu 18.04.4 LTS x86_64 (Bionic Beaver)
 - Windows 7 Home Premium SP1 64 bit
-- Windows 10 Home
+- Windows 10 Home/Pro
 
 Tested against Compiler:
 
-- clang 9.0.0
-
+- Clang 9.0.0+
+- Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 x86
 
 ```
 git clone <url>
