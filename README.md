@@ -18,7 +18,8 @@ and we figured it might benefit other developers too.
     - [Ntb::Types](#ntbtypes)
     - [Ntb::Templates](#ntbtemplates)
     - [Ntb::Colors](#ntbcolors)
-- [Build/Include](#buildinclude)
+- [Build](#build)
+- [Install](#install)
 - [Usage (Ntb::Colors)](#usage-ntbcolors)
 - [Documentation](https://notixbit.github.io/ntbpp/namespaces.html)
 - [Roadmap](#roadmap)
@@ -147,36 +148,7 @@ const String col(const String str, const UInt front, const UInt back = Colors::R
 
 ---
 
-## Build/Include
-
-Just clone this repo into your thirdparty (or lib or includes) folder,<br>
-and instruct your compiler to include it. You could also add it as a submodule.
-
-Specs:
-
-Min Std: **C++17** <br />
-(Structured bindings, inline, Nested namespaces)
-
-Tested against OS:
-
-- Linux 4.14.154 Ubuntu 18.04.4 LTS x86_64 (Bionic Beaver)
-- Windows 7 Home Premium SP1 64 bit
-- Windows 10 Home/Pro
-
-Tested against Compiler:
-
-- Clang 9.0.0+
-- Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 x86
-
-```
-git clone <url>
-```
-
-or
-
-```
-git submodule add <url>
-```
+## Build
 
 **CMake:**
 
@@ -190,18 +162,55 @@ make install
 
 Include files will be placed into: ``include/notixbit/ntbpp``
 
-**Manually:**
+---
 
-Include via ``INCLUDES`` flags (in Makefile etc):
+## Install
+
+You can use vcpkg, git clone or git submodule to install this library.
+
+### vcpkg
+
+Create/Edit the following files in your project:
+
+**vcpkg.json**
+
+```json
+{
+  "name": "your-project",
+  "version": "0",
+  "dependencies": [
+    "ntbpp"
+  ]
+}
 
 ```
-INCLUDES = -Intbpp
+
+**vcpkg-configuration.json**
+
+```json
+{
+  "registries": [
+    {
+      "kind": "git",
+      "repository": "https://github.com/notixbit/vcpkg-registry",
+      "baseline": "c4f78a946944d1a51e89bde41cd61b0460eb6a60",
+      "packages": [ "ntbpp" ]
+    }
+  ]
+}
+
 ```
 
-Or via commandline:
+### Git Clone
 
 ```
-clang++ -O1 -std=c++17 -pedantic -Intbpp
+git clone <url>
+```
+
+### Git Submodule
+
+```
+git submodule add <url>
 ```
 
 ---
