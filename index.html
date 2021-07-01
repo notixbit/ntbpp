@@ -187,17 +187,31 @@ Namespaces</h1>
 &lt;/blockquote&gt;</h1>
 <h1><a class="anchor" id="autotoc_md19"></a>
 Build</h1>
-<p><b>CMake:</b></p>
+<p>Min Std: <b>C++17</b> <br  />
+ (Structured bindings, inline, Nested namespaces)</p>
+<p>Tested against OS:</p>
+<ul>
+<li>Linux 4.14.154 Ubuntu 18.04.4 LTS x86_64 (Bionic Beaver)</li>
+<li>Windows 7 Home Premium SP1 64 bit</li>
+<li>Windows 10 Home/Pro</li>
+</ul>
+<p>Tested against Compiler:</p>
+<ul>
+<li>Clang 9.0.0+</li>
+<li>MSVC 19.28.29914 x86</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md20"></a>
+CMake</h3>
 <p>You can use <code>cmake</code> to build and install the include files. </p><div class="fragment"><div class="line">cd ntbpp</div>
 <div class="line">mkdir build &amp;&amp; cd build</div>
 <div class="line">cmake ..</div>
 <div class="line">make install</div>
 </div><!-- fragment --><p>Include files will be placed into: <code>include/notixbit/ntbpp</code></p>
 <hr  />
-<h1><a class="anchor" id="autotoc_md21"></a>
+<h1><a class="anchor" id="autotoc_md22"></a>
 Install</h1>
 <p>You can use vcpkg, git clone or git submodule to install this library.</p>
-<h2><a class="anchor" id="autotoc_md22"></a>
+<h2><a class="anchor" id="autotoc_md23"></a>
 vcpkg</h2>
 <p>Create/Edit the following files in your project:</p>
 <p><b>vcpkg.json</b></p>
@@ -220,14 +234,14 @@ vcpkg</h2>
 <div class="line">  ]</div>
 <div class="line">}</div>
 </div><!-- fragment --><p>Run: <code>vcpkg install --feature-flags=registries,manifests</code></p>
-<h2><a class="anchor" id="autotoc_md23"></a>
+<h2><a class="anchor" id="autotoc_md24"></a>
 Git Clone</h2>
 <div class="fragment"><div class="line">git clone &lt;url&gt;</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md24"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md25"></a>
 Git Submodule</h2>
 <div class="fragment"><div class="line">git submodule add &lt;url&gt;</div>
 </div><!-- fragment --><hr  />
-<h1><a class="anchor" id="autotoc_md26"></a>
+<h1><a class="anchor" id="autotoc_md27"></a>
 Usage (&lt;tt&gt;Ntb::Colors&lt;/tt&gt;)</h1>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="notixbit_8h.html">notixbit.h</a>&gt;</span></div>
 <div class="line"><span class="keyword">using namespace </span><a class="code" href="namespaceNtb_1_1Colors.html">Ntb::Colors</a>;</div>
@@ -241,18 +255,18 @@ Usage (&lt;tt&gt;Ntb::Colors&lt;/tt&gt;)</h1>
 </div><!-- fragment --><p>Result:</p>
 <p><img src="./.github/demo.png" alt="" class="inline"/></p>
 <hr  />
-<h1><a class="anchor" id="autotoc_md28"></a>
+<h1><a class="anchor" id="autotoc_md29"></a>
 Roadmap</h1>
 <ul>
 <li>Tests</li>
 <li>CI</li>
 </ul>
 <hr  />
-<h1><a class="anchor" id="autotoc_md30"></a>
+<h1><a class="anchor" id="autotoc_md31"></a>
 Contributing</h1>
 <p>You're very welcome and free to contribute. Thank you.</p>
 <hr  />
-<h1><a class="anchor" id="autotoc_md32"></a>
+<h1><a class="anchor" id="autotoc_md33"></a>
 License</h1>
 <p>[MIT](LICENSE) </p>
 </div></div><!-- PageDoc -->
