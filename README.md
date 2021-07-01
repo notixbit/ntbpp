@@ -150,7 +150,22 @@ const String col(const String str, const UInt front, const UInt back = Colors::R
 
 ## Build
 
-**CMake:**
+Min Std: **C++17** <br />
+(Structured bindings, inline, Nested namespaces)
+
+Tested against OS:
+
+- Linux 4.14.154 Ubuntu 18.04.4 LTS x86_64 (Bionic Beaver)
+- Windows 7 Home Premium SP1 64 bit
+- Windows 10 Home/Pro
+
+Tested against Compiler:
+
+- Clang 9.0.0+
+- MSVC 19.28.29914 x86
+
+
+#### CMake
 
 You can use ``cmake`` to build and install the include files.
 ```
