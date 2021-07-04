@@ -4,8 +4,8 @@
 * Product:      Notixbit C++ Utility Library (NTB++)
 * Description:  NTB++ is a header-only utility library for C++ >= 17
 *
-* Copyright (c) 2020 Notixbit Creative <info@notixbit.net>
-* Copyright (c) 2020 Steven Agyekum <agyekum@posteo.de>
+* Copyright (c) Notixbit Creative <info@notixbit.net>
+* Copyright (c) Steven Agyekum <agyekum@posteo.de>
 *
 * Permission is hereby granted, free of charge, to any person obtaining a copy of this software
 * and associated documentation files (the "Software"), to deal in the Software without restriction,
