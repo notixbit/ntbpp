@@ -1,6 +1,6 @@
 # Notixbit C++ Utility Library (NTB++)
 
-NTB++ is a header-only utility library for C++ >= 17.
+NTB++ is a cross-platform header-only utility library for C++ >= 17.
 
 It includes Colors, Templates & Types.
 Useful for printing colors, ``std::map`` and ``std::vector`` into ``std::cout``.<br>
@@ -20,6 +20,7 @@ and we figured it might benefit other developers too.
     - [Ntb::Colors](#ntbcolors)
 - [Build](#build)
 - [Install](#install)
+- [Testing](#testing)
 - [Usage (Ntb::Colors)](#usage-ntbcolors)
 - [Documentation](https://notixbit.github.io/ntbpp/namespaces.html)
 - [Roadmap](#roadmap)
@@ -151,7 +152,7 @@ const String col(const String str, const UInt front, const UInt back = Colors::R
 ## Build
 
 Min Std: **C++17** <br />
-(Structured bindings, inline, Nested namespaces)
+(structured bindings, inline, nested namespaces)
 
 Tested against OS:
 
@@ -162,12 +163,14 @@ Tested against OS:
 Tested against Compiler:
 
 - Clang 9.0.0+
-- MSVC 19.28.29914 x86
+- MSVC 14.28.29910
+- MSVC 19.28.29914
 
 
 #### CMake
 
-You can use ``cmake`` to build and install the include files.
+You can use ``cmake`` to install the include files.
+
 ```
 cd ntbpp
 mkdir build && cd build
@@ -175,7 +178,7 @@ cmake ..
 make install
 ```
 
-Include files will be placed into: ``include/notixbit/ntbpp``
+Include files will be placed into: ``${CMAKE_INSTALL_PREFIX}/include/notixbit/ntbpp``
 
 ---
 
@@ -232,6 +235,16 @@ git submodule add <url>
 
 ---
 
+## Testing
+
+Unit Testing Framework: CTest
+
+```
+make all test
+```
+
+---
+
 ## Usage (``Ntb::Colors``)
 
 ```cpp
@@ -253,7 +266,6 @@ Result:
 
 ## Roadmap
 
-+ Tests
 + CI
 
 ---
