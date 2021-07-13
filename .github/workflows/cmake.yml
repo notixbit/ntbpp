@@ -1,4 +1,4 @@
-name: CMake
+name: CMake Testing (CTest)
 
 on:
   push:
