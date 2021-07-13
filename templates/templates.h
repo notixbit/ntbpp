@@ -1,9 +1,6 @@
 /*
 * The MIT License (MIT)
 *
-* Product:      Notixbit C++ Utility Library (NTB++)
-* Description:  NTB++ is a header-only utility library for C++ >= 17
-*
 * Copyright (c) Notixbit Creative <info@notixbit.net>
 * Copyright (c) Steven Agyekum <agyekum@posteo.de>
 *
