@@ -1,7 +1,7 @@
 07/14/2021
 -----------
 + Added unit tests using CTest
-+ Added CI integration for tests
++ Added CI integration for tests and code-ql analysis
 
 06/30/2021
 -----------
