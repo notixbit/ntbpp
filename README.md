@@ -1,6 +1,7 @@
 # Notixbit C++ Utility Library (NTB++)
 
 [![CMake Testing (CTest)](https://github.com/notixbit/ntbpp/actions/workflows/cmake.yml/badge.svg)](https://github.com/notixbit/ntbpp/actions/workflows/cmake.yml)
+[![CodeQL Analysis](https://github.com/notixbit/ntbpp/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/notixbit/ntbpp/actions/workflows/codeql-analysis.yml)
 [![Generate Docs](https://github.com/notixbit/ntbpp/actions/workflows/docs.yml/badge.svg)](https://github.com/notixbit/ntbpp/actions/workflows/docs.yml)
 
 NTB++ is a cross-platform header-only utility library for C++ >= 17.
