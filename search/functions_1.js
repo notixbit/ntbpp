@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['operator_3c_3c_54',['operator&lt;&lt;',['../namespaceNtb_1_1Templates.html#a6956d60daf624f2ad14c1554154eaf46',1,'Ntb::Templates::operator&lt;&lt;(std::ostream &amp;os, const Vector&lt; T &gt; &amp;v)'],['../namespaceNtb_1_1Templates.html#a74bbc5bbe6fa9c8ea345288adc8a830b',1,'Ntb::Templates::operator&lt;&lt;(std::ostream &amp;os, const MapOf&lt; T, U &gt; &amp;v)']]]
+  ['main_61',['main',['../colors_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;colors.cpp'],['../templates_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;templates.cpp'],['../types_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;types.cpp']]]
 ];
