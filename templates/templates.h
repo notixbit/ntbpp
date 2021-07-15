@@ -21,7 +21,7 @@
 #ifndef TEMPLATES_H
 #define TEMPLATES_H
 
-#include <iostream>
+#include <ostream>
 #include <vector>
 #include <map>
 

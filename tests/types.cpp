@@ -34,9 +34,9 @@ int main()
     UShort testUShort = 1u;
     Int testInt = -10;
     UInt testUInt = 10u;
-    Long testLong = -26444448941;
+    Long testLong = -264444489;
     LongLong testLongLong = -236444448941;
-    ULong testULong = 26444448941u;
+    ULong testULong = 264444489u;
     ULongLong testULongLong = 236444448941u;
     String testString = "Testing";
 
@@ -61,9 +61,9 @@ int main()
     assert(testUShort == 1u);
     assert(testInt == -10);
     assert(testUInt == 10u);
-    assert(testLong == -26444448941);
+    assert(testLong == -264444489);
     assert(testLongLong == -236444448941);
-    assert(testULong == 26444448941u);
+    assert(testULong == 264444489u);
     assert(testULongLong == 236444448941u);
     assert(testString == "Testing");
     assert(testMapOf["TestKey"] == "TestVal");

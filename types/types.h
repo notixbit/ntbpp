@@ -23,6 +23,7 @@
 
 #include <map>
 #include <vector>
+#include <string>
 
 namespace Ntb
 {
