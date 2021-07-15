@@ -1,5 +1,6 @@
 # Notixbit C++ Utility Library (NTB++)
 
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/notixbit/ntbpp/master/LICENSE) 
 [![CMake Testing (CTest)](https://github.com/notixbit/ntbpp/actions/workflows/cmake.yml/badge.svg)](https://github.com/notixbit/ntbpp/actions/workflows/cmake.yml)
 [![CodeQL Analysis](https://github.com/notixbit/ntbpp/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/notixbit/ntbpp/actions/workflows/codeql-analysis.yml)
 [![Generate Docs](https://github.com/notixbit/ntbpp/actions/workflows/docs.yml/badge.svg)](https://github.com/notixbit/ntbpp/actions/workflows/docs.yml)
