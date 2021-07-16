@@ -19,7 +19,7 @@ You can now specify a background color just
 with a regular color enum member.
 
 + From now on Colors:: enum members are optional.
-You can directly pass an usigned integer (Ntb::Types::UInt) or use one
+You can directly pass an unsigned integer (Ntb::Types::UInt) or use one
 of the available Colors:: enum members.
 
 https://github.com/notixbit/ntbpp/pull/1
