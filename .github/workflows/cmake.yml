@@ -1,4 +1,4 @@
-name: CMake Testing (CTest)
+name: CMake Test (Windows, Ubuntu, macOS)
 
 on:
   push:
