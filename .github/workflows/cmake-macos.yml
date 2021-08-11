@@ -1,4 +1,4 @@
-name: CMake Test (macOS)
+name: macOS (cmake)
 
 on:
   push:
