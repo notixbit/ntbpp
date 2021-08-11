@@ -1,4 +1,4 @@
-name: CMake Test (Windows)
+name: Windows (cmake)
 
 on:
   push:
