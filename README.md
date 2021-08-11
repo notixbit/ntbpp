@@ -2,7 +2,7 @@
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/notixbit/ntbpp/master/LICENSE) 
 [![CMake Test (Linux)](https://github.com/notixbit/ntbpp/actions/workflows/cmake-linux.yml/badge.svg)](https://github.com/notixbit/ntbpp/actions/workflows/cmake-linux.yml)
-[![CMake Test (Windows)](https://github.com/notixbit/ntbpp/actions/workflows/cmake-windows.yml/badge.svg)](https://github.com/notixbit/ntbpp/actions/workflows/cmake-windows.yml)
+[![CMake Test (Windows)](https://github.com/notixbit/ntbpp/actions/workflows/cmake-win.yml/badge.svg)](https://github.com/notixbit/ntbpp/actions/workflows/cmake-win.yml)
 [![CMake Test (macOS)](https://github.com/notixbit/ntbpp/actions/workflows/cmake-macos.yml/badge.svg)](https://github.com/notixbit/ntbpp/actions/workflows/cmake-macos.yml)
 [![CodeQL Analysis](https://github.com/notixbit/ntbpp/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/notixbit/ntbpp/actions/workflows/codeql-analysis.yml)
 [![Generate Docs](https://github.com/notixbit/ntbpp/actions/workflows/docs.yml/badge.svg)](https://github.com/notixbit/ntbpp/actions/workflows/docs.yml)
