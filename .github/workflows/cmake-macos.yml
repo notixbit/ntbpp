@@ -1,4 +1,4 @@
-name: macOS (cmake)
+name: macOS
 
 on:
   push:
