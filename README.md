@@ -214,6 +214,11 @@ Create/Edit the following files in your project:
 
 ```json
 {
+  "default-registry": {
+    "kind": "git",
+    "repository": "https://github.com/Microsoft/vcpkg",
+    "baseline": "e79c0d2b5d72eb3063cf32a1f7de1a9cf19930f3"
+  },
   "registries": [
     {
       "kind": "git",
