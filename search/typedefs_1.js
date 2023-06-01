@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['char_67',['Char',['../namespaceNtb_1_1Types.html#ab038340bc6a4c20832c2d9d11306ce04',1,'Ntb::Types']]]
+  ['char_0',['Char',['../namespaceNtb_1_1Types.html#ab038340bc6a4c20832c2d9d11306ce04',1,'Ntb::Types']]]
 ];
