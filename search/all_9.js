@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['security_20policy_0',['Security Policy',['../md_SECURITY.html',1,'']]],
-  ['security_2emd_1',['SECURITY.md',['../SECURITY_8md.html',1,'']]],
-  ['short_2',['Short',['../namespaceNtb_1_1Types.html#ac2ac39e44e9f4731398a766517ecff21',1,'Ntb::Types']]],
-  ['string_3',['String',['../namespaceNtb_1_1Types.html#a7528321a8c48b6a2dfb0ed4fb5d1c1a5',1,'Ntb::Types']]],
-  ['stringmap_4',['StringMap',['../namespaceNtb_1_1Types.html#a2aa3b1ade4d257c77a4bd20b0130ad78',1,'Ntb::Types']]],
-  ['stringmapof_5',['StringMapOf',['../namespaceNtb_1_1Types.html#a41542f566dec99065882f9174150c4d4',1,'Ntb::Types']]]
+  ['of_20conduct_0',['Contributor Covenant Code of Conduct',['../md_CODE__OF__CONDUCT.html',1,'']]],
+  ['of_20contents_1',['Table of contents',['../index.html#autotoc_md8',1,'']]],
+  ['operator_3c_3c_2',['operator&lt;&lt;',['../namespaceNtb_1_1Templates.html#a77971a0903c5b565d68fe7f6bc0f686b',1,'Ntb::Templates::operator&lt;&lt;(std::ostream &amp;os, const Vector&lt; T &gt; &amp;v)'],['../namespaceNtb_1_1Templates.html#ae9f072bce3ea146af739dd47a93d238c',1,'Ntb::Templates::operator&lt;&lt;(std::ostream &amp;os, const MapOf&lt; T, U &gt; &amp;v)']]],
+  ['our_20pledge_3',['Our Pledge',['../md_CODE__OF__CONDUCT.html#autotoc_md1',1,'']]],
+  ['our_20responsibilities_4',['Our Responsibilities',['../md_CODE__OF__CONDUCT.html#autotoc_md3',1,'']]],
+  ['our_20standards_5',['Our Standards',['../md_CODE__OF__CONDUCT.html#autotoc_md2',1,'']]]
 ];

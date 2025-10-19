@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['operator_3c_3c_0',['operator&lt;&lt;',['../namespaceNtb_1_1Templates.html#a77971a0903c5b565d68fe7f6bc0f686b',1,'Ntb::Templates::operator&lt;&lt;(std::ostream &amp;os, const Vector&lt; T &gt; &amp;v)'],['../namespaceNtb_1_1Templates.html#ae9f072bce3ea146af739dd47a93d238c',1,'Ntb::Templates::operator&lt;&lt;(std::ostream &amp;os, const MapOf&lt; T, U &gt; &amp;v)']]]
+  ['magenta_0',['MAGENTA',['../namespaceNtb_1_1Colors.html#a6a121d0d73f2ca4e0035b8660e40f5c8a1d28ed492972e70bca3a07764b8c3a13',1,'Ntb::Colors']]],
+  ['main_1',['main',['../colors_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;colors.cpp'],['../templates_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;templates.cpp'],['../types_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;types.cpp']]],
+  ['mapof_2',['MapOf',['../namespaceNtb_1_1Types.html#a110c862171e228f4a98e67488d4f04ce',1,'Ntb::Types']]]
 ];

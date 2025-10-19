@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mapof_0',['MapOf',['../namespaceNtb_1_1Types.html#a82c4799ee087119cdf48b9006a46bdb1',1,'Ntb::Types']]]
+  ['mapof_0',['MapOf',['../namespaceNtb_1_1Types.html#a110c862171e228f4a98e67488d4f04ce',1,'Ntb::Types']]]
 ];

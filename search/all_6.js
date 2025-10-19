@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['colors_0',['Colors',['../namespaceNtb_1_1Colors.html',1,'Ntb']]],
-  ['notixbit_20c_2b_2b_20utility_20library_20_28ntb_2b_2b_29_1',['Notixbit C++ Utility Library (NTB++)',['../index.html',1,'']]],
-  ['notixbit_2eh_2',['notixbit.h',['../notixbit_8h.html',1,'']]],
-  ['ntb_3',['Ntb',['../namespaceNtb.html',1,'']]],
-  ['templates_4',['Templates',['../namespaceNtb_1_1Templates.html',1,'Ntb']]],
-  ['types_5',['Types',['../namespaceNtb_1_1Types.html',1,'Ntb']]]
+  ['library_20ntb_0',['Notixbit C++ Utility Library (NTB++)',['../index.html',1,'']]],
+  ['license_1',['License',['../index.html#autotoc_md33',1,'']]],
+  ['long_2',['Long',['../namespaceNtb_1_1Types.html#a878bd35d36bae52fc7b866fc730f01d7',1,'Ntb::Types']]],
+  ['longlong_3',['LongLong',['../namespaceNtb_1_1Types.html#a2d513633450df57d03835eeef2a8c77a',1,'Ntb::Types']]]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['long_0',['Long',['../namespaceNtb_1_1Types.html#aa52c5e034cfc8f2b6d2ff2b2999a2f51',1,'Ntb::Types']]],
-  ['longlong_1',['LongLong',['../namespaceNtb_1_1Types.html#a80175ec873ca2f94fc52abb568c86ac7',1,'Ntb::Types']]]
+  ['git_20clone_0',['Git Clone',['../index.html#autotoc_md24',1,'']]],
+  ['git_20submodule_1',['Git Submodule',['../index.html#autotoc_md25',1,'']]],
+  ['green_2',['GREEN',['../namespaceNtb_1_1Colors.html#a6a121d0d73f2ca4e0035b8660e40f5c8a4a4fed5b3b31e1fe4a7303ddf9cd1228',1,'Ntb::Colors']]]
 ];

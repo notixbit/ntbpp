@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['uchar_0',['UChar',['../namespaceNtb_1_1Types.html#a2653868202453de2edecbe99c85fb589',1,'Ntb::Types']]],
-  ['uint_1',['UInt',['../namespaceNtb_1_1Types.html#a480835cf2c1b1b1974480081698a2bba',1,'Ntb::Types']]],
-  ['ulong_2',['ULong',['../namespaceNtb_1_1Types.html#abf54c4369e9efe62687377f2fefdf857',1,'Ntb::Types']]],
-  ['ulonglong_3',['ULongLong',['../namespaceNtb_1_1Types.html#ab753e15d2fefb902a23a3057fa4a2a83',1,'Ntb::Types']]],
-  ['ushort_4',['UShort',['../namespaceNtb_1_1Types.html#a8d4414234eaf70cd02039d95c82702ba',1,'Ntb::Types']]]
+  ['uchar_0',['UChar',['../namespaceNtb_1_1Types.html#ae9659973cc94e7483a2643dd4468b49f',1,'Ntb::Types']]],
+  ['uint_1',['UInt',['../namespaceNtb_1_1Types.html#a348494e3115b839f0afc8dbe3870566d',1,'Ntb::Types']]],
+  ['ulong_2',['ULong',['../namespaceNtb_1_1Types.html#a0ea11bd0534e07a9b6bf4a6eecbbbb81',1,'Ntb::Types']]],
+  ['ulonglong_3',['ULongLong',['../namespaceNtb_1_1Types.html#aead3ad3517d23b8efc43fa4e19b97d8e',1,'Ntb::Types']]],
+  ['ushort_4',['UShort',['../namespaceNtb_1_1Types.html#a008fe2aae0b60c102fa777dde4c1d8f2',1,'Ntb::Types']]]
 ];
