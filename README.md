@@ -201,29 +201,12 @@ You can use vcpkg, git clone or git submodule to install this library.
 
 ### vcpkg
 
-Create/Edit the following files in your project:
-
-**vcpkg.json**
-
-```json
-{
-  "name": "your-project",
-  "version": "0",
-  "dependencies": [
-    "ntbpp"
-  ]
-}
-
-```
-
 **vcpkg-configuration.json**
 
 ```json
 {
   "default-registry": {
-    "kind": "git",
-    "repository": "https://github.com/Microsoft/vcpkg",
-    "baseline": "e79c0d2b5d72eb3063cf32a1f7de1a9cf19930f3"
+    //..... redacted
   },
   "registries": [
     {
@@ -237,7 +220,12 @@ Create/Edit the following files in your project:
 
 ```
 
-Run: ``vcpkg install --feature-flags=registries,manifests``
+Run: ``vcpkg add port ntbpp``
+
+See: https://learn.microsoft.com/en-us/vcpkg/consume/git-registries#3---add-private-registries-to-your-vcpkg-configuration-file
+
+
+---
 
 ### Git Clone
 
