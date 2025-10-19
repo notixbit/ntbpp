@@ -1,3 +1,7 @@
+10/19/2025
+-----------
++ Added ability to trigger CI builds manually
+
 07/14/2021
 -----------
 + Added unit tests using CTest
