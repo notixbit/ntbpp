@@ -164,14 +164,20 @@ Min Std: **C++17** <br />
 Tested against OS:
 
 - Linux 4.14.154 Ubuntu 18.04.4 LTS x86_64 (Bionic Beaver)
+- Ubuntu 24.04.3
 - Windows 7 Home Premium SP1 64 bit
 - Windows 10 Home/Pro
+- Windows Server 2025 (10.0.26100)
+- macOS 15.6.1 (24G90)
 
 Tested against Compiler:
 
 - Clang 9.0.0+
 - MSVC 14.28.29910
 - MSVC 19.28.29914
+- MSVC 19.44.35217
+- AppleClang 17.0.0
+- GCC 13.3.0
 
 
 #### CMake
