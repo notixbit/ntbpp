@@ -247,21 +247,10 @@ Install</h1>
 <p>You can use vcpkg, git clone or git submodule to install this library.</p>
 <h2><a class="anchor" id="autotoc_md23"></a>
 vcpkg</h2>
-<p>Create/Edit the following files in your project:</p>
-<p><b>vcpkg.json</b></p>
-<div class="fragment"><div class="line">{</div>
-<div class="line">  &quot;name&quot;: &quot;your-project&quot;,</div>
-<div class="line">  &quot;version&quot;: &quot;0&quot;,</div>
-<div class="line">  &quot;dependencies&quot;: [</div>
-<div class="line">    &quot;ntbpp&quot;</div>
-<div class="line">  ]</div>
-<div class="line">}</div>
-</div><!-- fragment --><p><b>vcpkg-configuration.json</b></p>
+<p><b>vcpkg-configuration.json</b></p>
 <div class="fragment"><div class="line">{</div>
 <div class="line">  &quot;default-registry&quot;: {</div>
-<div class="line">    &quot;kind&quot;: &quot;git&quot;,</div>
-<div class="line">    &quot;repository&quot;: &quot;https://github.com/Microsoft/vcpkg&quot;,</div>
-<div class="line">    &quot;baseline&quot;: &quot;e79c0d2b5d72eb3063cf32a1f7de1a9cf19930f3&quot;</div>
+<div class="line">    //..... redacted</div>
 <div class="line">  },</div>
 <div class="line">  &quot;registries&quot;: [</div>
 <div class="line">    {</div>
@@ -272,20 +261,22 @@ vcpkg</h2>
 <div class="line">    }</div>
 <div class="line">  ]</div>
 <div class="line">}</div>
-</div><!-- fragment --><p>Run: <code>vcpkg install --feature-flags=registries,manifests</code></p>
-<h2><a class="anchor" id="autotoc_md24"></a>
+</div><!-- fragment --><p>Run: <code>vcpkg add port ntbpp</code></p>
+<p>See: <a href="https://learn.microsoft.com/en-us/vcpkg/consume/git-registries#3&mdash;add-private-registries-to-your-vcpkg-configuration-file">https://learn.microsoft.com/en-us/vcpkg/consume/git-registries#3&amp;mdash;add-private-registries-to-your-vcpkg-configuration-file</a></p>
+<hr  />
+<h2><a class="anchor" id="autotoc_md25"></a>
 Git Clone</h2>
 <div class="fragment"><div class="line">git clone &lt;url&gt;</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md25"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md26"></a>
 Git Submodule</h2>
 <div class="fragment"><div class="line">git submodule add &lt;url&gt;</div>
 </div><!-- fragment --><hr  />
-<h1><a class="anchor" id="autotoc_md27"></a>
+<h1><a class="anchor" id="autotoc_md28"></a>
 Testing</h1>
 <p>Unit Testing Framework: CTest</p>
 <div class="fragment"><div class="line">make all test</div>
 </div><!-- fragment --><hr  />
-<h1><a class="anchor" id="autotoc_md29"></a>
+<h1><a class="anchor" id="autotoc_md30"></a>
 Usage (<code>Ntb::Colors</code>)</h1>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="notixbit_8h.html">notixbit.h</a>&gt;</span></div>
 <div class="line"><span class="keyword">using namespace </span><a class="code hl_namespace" href="namespaceNtb_1_1Colors.html">Ntb::Colors</a>;</div>
@@ -299,11 +290,11 @@ Usage (<code>Ntb::Colors</code>)</h1>
 </div><!-- fragment --><p>Result:</p>
 <p><img src="./.github/demo.png" alt="" class="inline"/></p>
 <hr  />
-<h1><a class="anchor" id="autotoc_md31"></a>
+<h1><a class="anchor" id="autotoc_md32"></a>
 Contributing</h1>
 <p>You're very welcome and free to contribute. Thank you.</p>
 <hr  />
-<h1><a class="anchor" id="autotoc_md33"></a>
+<h1><a class="anchor" id="autotoc_md34"></a>
 License</h1>
 <p>[MIT](LICENSE) </p>
 </div></div><!-- PageDoc -->

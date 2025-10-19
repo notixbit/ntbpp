@@ -7,7 +7,7 @@ var searchData=
   ['ntb_4',['Ntb',['../namespaceNtb.html',1,'']]],
   ['ntb_20tt_5',['&lt;tt&gt;Ntb&lt;/tt&gt;',['../index.html#autotoc_md11',1,'']]],
   ['ntb_3a_3acolors_6',['Colors',['../namespaceNtb_1_1Colors.html',1,'Ntb']]],
-  ['ntb_3a_3acolors_20tt_7',['Ntb::Colors tt',['../index.html#autotoc_md17',1,'&lt;tt&gt;Ntb::Colors&lt;/tt&gt;'],['../index.html#autotoc_md29',1,'Usage (&lt;tt&gt;Ntb::Colors&lt;/tt&gt;)']]],
+  ['ntb_3a_3acolors_20tt_7',['Ntb::Colors tt',['../index.html#autotoc_md17',1,'&lt;tt&gt;Ntb::Colors&lt;/tt&gt;'],['../index.html#autotoc_md30',1,'Usage (&lt;tt&gt;Ntb::Colors&lt;/tt&gt;)']]],
   ['ntb_3a_3atemplates_8',['Templates',['../namespaceNtb_1_1Templates.html',1,'Ntb']]],
   ['ntb_3a_3atemplates_20tt_9',['&lt;tt&gt;Ntb::Templates&lt;/tt&gt;',['../index.html#autotoc_md15',1,'']]],
   ['ntb_3a_3atypes_10',['Types',['../namespaceNtb_1_1Types.html',1,'Ntb']]],

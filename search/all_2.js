@@ -2,7 +2,7 @@ var searchData=
 [
   ['c_20utility_20library_20ntb_0',['Notixbit C++ Utility Library (NTB++)',['../index.html',1,'']]],
   ['char_1',['Char',['../namespaceNtb_1_1Types.html#ab70621b81970fbdae659982056942506',1,'Ntb::Types']]],
-  ['clone_2',['Git Clone',['../index.html#autotoc_md24',1,'']]],
+  ['clone_2',['Git Clone',['../index.html#autotoc_md25',1,'']]],
   ['cmake_3',['CMake',['../index.html#autotoc_md20',1,'']]],
   ['code_20of_20conduct_4',['Contributor Covenant Code of Conduct',['../md_CODE__OF__CONDUCT.html',1,'']]],
   ['code_5fof_5fconduct_2emd_5',['CODE_OF_CONDUCT.md',['../CODE__OF__CONDUCT_8md.html',1,'']]],
@@ -13,7 +13,7 @@ var searchData=
   ['conduct_10',['Contributor Covenant Code of Conduct',['../md_CODE__OF__CONDUCT.html',1,'']]],
   ['contents_11',['Table of contents',['../index.html#autotoc_md8',1,'']]],
   ['contributing_12',['CONTRIBUTING',['../md_CONTRIBUTING.html',1,'']]],
-  ['contributing_13',['Contributing',['../index.html#autotoc_md31',1,'']]],
+  ['contributing_13',['Contributing',['../index.html#autotoc_md32',1,'']]],
   ['contributing_2emd_14',['CONTRIBUTING.md',['../CONTRIBUTING_8md.html',1,'']]],
   ['contributor_20covenant_20code_20of_20conduct_15',['Contributor Covenant Code of Conduct',['../md_CODE__OF__CONDUCT.html',1,'']]],
   ['covenant_20code_20of_20conduct_16',['Contributor Covenant Code of Conduct',['../md_CODE__OF__CONDUCT.html',1,'']]],
