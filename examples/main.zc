@@ -1,0 +1,34 @@
+//> include: ./ntbpp
+//> cflags: -Ofast
+
+#include <iostream>
+#include <notixbit.h>
+
+// @usage: Zen-C Example: zc run main.zc --cpp
+
+raw {
+    using namespace Ntb::Colors;
+    using namespace Ntb::Types;
+    using namespace Ntb::Templates;
+
+    StringMapOf<UInt> z_my_map() {
+        return StringMapOf<UInt> {
+            {"TestKey", 1}
+        };
+    }
+}
+
+fn main() {
+    var mapFromCpp = z_my_map();
+
+    var fnFromCpp = col("====POLICE==LINE==DO==NOT==CROSS====", BLACK, YELLOW);
+
+    raw { 
+        std::cout 
+        << col("Zen-C & NTB++ (ntbpp)", WHITE, RED) 
+        << std::endl << std::endl 
+        << fnFromCpp
+        << std::endl << std::endl
+        << "Map Output: " << mapFromCpp << std::endl;
+    }
+}
